@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bfr6cogb4ause"]
+
+[ext_resource type="Script" uid="uid://gu2lt3fnlpii" path="res://antagonist.gd" id="1_ctp2t"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_o25wl"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_eqngg"]
+
+[node name="Antagonist" type="CharacterBody3D" unique_id=2054096922]
+script = ExtResource("1_ctp2t")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1421730968]
+shape = SubResource("CapsuleShape3D_o25wl")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=939373620]
+mesh = SubResource("CapsuleMesh_eqngg")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=1406810996]

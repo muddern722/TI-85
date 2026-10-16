@@ -1,0 +1,6 @@
+[gd_resource type="PanoramaSkyMaterial" format=3 uid="uid://b32ageqb1jxup"]
+
+[ext_resource type="Texture2D" uid="uid://c6hw2fyuk78kc" path="res://skybox-aurora-267-4096.png" id="1_kl454"]
+
+[resource]
+panorama = ExtResource("1_kl454")
